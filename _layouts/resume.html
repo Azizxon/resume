@@ -104,11 +104,11 @@
           <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.course }}</h4>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <div class="flex-container">
+          <span class="flex-container">
             {% for descb in project.description %}
-              <div>{{descb}}</div>
+              <span>{{descb}}</span>
             {% endfor %}
-          </div>
+          </span>
         </div>
         {% endfor %}
 
