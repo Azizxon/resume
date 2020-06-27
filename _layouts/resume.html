@@ -184,9 +184,9 @@
           </header>
         <span class="flex-container">
           {% for lang in site.data.languages %}
-          <span class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Language">
-            <h3 class="resume-item-title" itemprop="name"> {{ lang.lang }} </h3>
-            <p class="resume-item-copy">{{ lang.level }}</p>
+          <span>
+            <h3 style="font-weight: bold"> {{ lang.lang }} </h3>
+            <h3>{{ lang.level }}</p>
           </span>     
       </span>
         {% endfor %}
