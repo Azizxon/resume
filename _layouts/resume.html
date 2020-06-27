@@ -184,9 +184,9 @@
           </header>
         <span class="flex-container">
           {% for lang in site.data.languages %}
-          <span>
-            <p style="font-weight: bold;"> {{ lang.lang }} </h3>
-            <p>{{ lang.level }}</p>
+          <span style="font-weight: bold;">
+            {{ lang.lang }}<br/>
+            <p>{{lang.level}}</p>
           </span>     
       </span>
         {% endfor %}

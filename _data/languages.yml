@@ -1,10 +1,10 @@
 # Languages
 
-- lang: English
+- lang: "English"
   level: Intermediate
 
-- lang: Russian
+- lang: "Russian"
   level: Advanced
 
-- lang: Uzbek
+- lang: "Uzbek"
   level: Native
