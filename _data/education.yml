@@ -1,7 +1,22 @@
 # Degree
 
-- degree: Full Stack Web-developer  
-  uni: Stepik.ru
-  year: 6/27/2020
-  # awards: Job offer
-  # summary: AIS Novation trainee
+- degree: Master degree  
+  uni: NUST MISiS
+  year: 6/30/2020
+  title: Digital fabrication technologies and materials
+  summary: ['CAD/CAM/CAE', 'Prototyping', 'Applied electronics', 'Machine Learning']
+
+- degree: Training  
+  uni: Network Academy of LANIT
+  year: 12/25/2019
+  title: .Net/C# Developer Profession
+  summary: [ 'C# programming basics', 'C# and CLR basics', 'Multithreading', 'System Architecture and Design', 'Algorithms and data structures', 'Work with data', '.Net Technologies', 'Team development', 'Functional programming in .Net']
+
+- degree: Bachelor degree  
+  uni: NUST MISiS
+  year: 6/30/2018
+  title: Control in technical systems
+  summary: ['CAD/CAM/CAE', 'Electronics', 'Programming', 'Automation']
+
+
+        
