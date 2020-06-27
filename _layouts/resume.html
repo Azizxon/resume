@@ -81,9 +81,9 @@
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           <h4 class="resume-item-details group" itemprop="description">{{ education.title }}</h4>
-          <ul class="flex-container">
+          <li class="flex-container">
             {% for smry in education.summary %}
-            <li>{{ smry }}</li>
+            <div>{{ smry }}</div>
             {% endfor %}    
           </ul>                
         </div>
@@ -99,8 +99,7 @@
         <header class="section-header">
           <h2>Apprenticeship</h2>
         </header>
-
-        {% for project in site.data.apprenticeship %}
+        {% for project in site.data.apprenticeships %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.course }}</h4>
@@ -108,7 +107,7 @@
           
           <div class="flex-container">
             {% for descb in project.description %}
-              <div>{{ project.description }}</div>>
+              <div> </div>>
             {% endfor %}
           </div>
         </div>
