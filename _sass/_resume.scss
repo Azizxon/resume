@@ -167,6 +167,23 @@
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+
+  
+  .flex-container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .flex-container > span {
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+  }
 }
 
 // footer styles
