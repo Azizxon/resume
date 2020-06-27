@@ -1,9 +1,9 @@
 # Skills
 
 # Education
-- skill: Education
-  description: Developed and maintained various conference talks, online training, and in-person trainings covering various topics including Git, GitHub, and Open Source.
+- skill: Programming
+  enums: ['C#', '.Net', 'T-SQL', 'WPF', 'ASP.Net Web API','Design patterns','TDD','DDD','SOLID','KISS','DRY','HTML','CSS','JS','IOS', 'Swift 4.1' ,'Selenium', 'Unit tests', 'Python']
 
 # Leadership
-- skill: Leadership
-  description: Managed multiple asynchronous teams in the development, maintenance, and release of various web applications and websites.
+- skill: Engineering
+  enums: ['CAD', 'CAM', 'CAE', 'Rapid-Prototyping','Arduino', 'Simatic PLC', 'Applied electronics', 'Metallurgy', 'Automation process', 'Mechanical engineering'] 
