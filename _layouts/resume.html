@@ -182,15 +182,14 @@
           <header class="section-header">
             <h2>Languages</h2>
           </header>
-        <span class="flex-container">
-          {% for lang in site.data.languages %}
-          <span style="font-weight: bold;">
-            {{ lang.lang }}<br/>
-            <p>{{lang.level}}</p>
-          </span>     
-      </span>
-        {% endfor %}
-
+          <span class="flex-container">
+            {% for lang in site.data.languages %}
+              <span style="font-weight: bold;">
+                {{ lang.lang }}<br/>
+                <p>{{lang.level}}</p>
+              </span>
+            {% endfor %}
+          </span>
         </section>
       {% endif %}
 
