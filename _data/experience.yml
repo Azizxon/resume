@@ -1,19 +1,13 @@
 # Jobs
 
-# Trainer
-- company: GitHub, Inc.
-  position: GitHub Trainer
-  duration: March, 2012 &mdash; Present
-  summary: Teach all things Git, give away all the stickers, ensure world peace.
-
 # Job Title
-- company: Conway Meats
-  position: Web Developer
-  duration: May, 2014 &mdash; May, 2015
-  summary: Web developer for a restuarant meat provider.
+- company: Bellarage Russia
+  position: Junior Developer/IT-consultant
+  duration: July, 2018 &mdash; October, 2018
+  summary: ["Development corporative “Bellerage Online IOS 2.0” app onSwift 4.x and Bellerage Online UWP 2.0: Fix bugs and develop functionality", "IT-specialist: Configuration of the operating system and user account,installing and configuring new devices"]
 
 # Intern
-- company: GitHub
-  position: Intern - Web Developer - Designer
-  duration:  June, 2017  &mdash; August, 2017
-  summary: Redesigned the services.github.com website without a calendar
+- company: Tashkent Pipe Plant
+  position: Intern - PLC - Engineer
+  duration:  July, 2017  &mdash; August, 2017
+  summary: ["Studied the process of automating direct-current steel-smelting electric arcfurnaces and develop a traffic light management software for conveyorcontrol panel"]
