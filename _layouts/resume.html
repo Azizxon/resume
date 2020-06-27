@@ -80,12 +80,12 @@
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.title }}</h4>
-          <li class="flex-container">
-            {% for smry in education.summary %}
-            <div>{{ smry }}</div>
-            {% endfor %}    
-          </ul>                
+          <h4 class="resume-item-details group" itemprop="description">{{ education.title }}</h4>                        
+        </div>
+        <div class="flex-container">
+          {% for smry in education.summary %}
+          <div>{{ smry }}</div>
+          {% endfor %}    
         </div>
         {% endfor %}
       </section>
@@ -107,7 +107,7 @@
           
           <div class="flex-container">
             {% for descb in project.description %}
-              <div>descb</div>>
+              <div>{{descb}}</div>>
             {% endfor %}
           </div>
         </div>
