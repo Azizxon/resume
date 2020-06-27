@@ -184,7 +184,7 @@
           </header>
           <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Language">
             {% for lang in site.data.languages %}
-              <p class="resume-item-copy" style="font-weight: bold;">{{ lang.lang }}: <p style="font-weight: normal;">{{lang.level}}</p></p>
+              <bold class="resume-item-copy" style="font-weight: bold;">{{ lang.lang }}: </bold>{{lang.level}}<br/>
             {% endfor %}          
           </div>
         </section>
