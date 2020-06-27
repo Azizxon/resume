@@ -161,7 +161,6 @@
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Associations</h2>
         </header>
@@ -176,6 +175,23 @@
 
       </section>
       <!-- end Associations -->
+      {% endif %}
+
+      {% if site.resume_section_languages %}
+        <section class="content-section">
+          <header class="section-header">
+            <h2>Languages</h2>
+          </header>
+        <span class="flex-container">
+          {% for lang in site.data.languages %}
+          <span class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Language">
+            <h3 class="resume-item-title" itemprop="name"> {{ lang.lang }} </h3>
+            <p class="resume-item-copy">{{ lang.level }}</p>
+          </span>     
+      </span>
+        {% endfor %}
+
+        </section>
       {% endif %}
 
       {% if site.resume_section_interests %}
