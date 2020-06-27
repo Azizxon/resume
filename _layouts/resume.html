@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/femalecodertocat.png" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/ava.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -58,9 +58,9 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-	  {% for smry in job.summary %}
-          	<p class="resume-item-copy">{{ smry }}</p>
-	  {% endfor %}
+          {% for smry in job.summary %}
+                  <p class="resume-item-copy">{{ smry }}</p>
+          {% endfor %}
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -80,10 +80,12 @@
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-	  <h4 class="resume-item-details group" itemprop="description">{{ education.title }}</h4>
-	  {% for smry in education.summary %}
-	  	<p class="resume-item-copy">{{ smry }}</p>
-	  {% endfor %}          
+          <h4 class="resume-item-details group" itemprop="description">{{ education.title }}</h4>
+          <ul class="flex-container">
+            {% for smry in education.summary %}
+            <li class="flex-item">{{ smry }}</li>
+            {% endfor %}    
+          </ul>                
         </div>
         {% endfor %}
       </section>
