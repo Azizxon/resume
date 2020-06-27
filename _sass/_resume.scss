@@ -173,16 +173,13 @@
     flex-wrap: wrap;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;    
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    justify-content: left;   
   }
 
   .flex-container > span {
     margin-right: 10px;
     text-align: center;
-    line-height: 30px;
+    line-height: 30px; 
   }
 }
 
