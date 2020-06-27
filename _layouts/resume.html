@@ -81,11 +81,11 @@
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           <h4 class="resume-item-details group" itemprop="description">{{ education.title }}</h4>                        
-        </div>
-        <div class="flex-container">
-          {% for smry in education.summary %}
-          <div>{{ smry }}</div>
-          {% endfor %}    
+          <span class="flex-container">
+            {% for smry in education.summary %}
+            <span>{{ smry }}</span>
+            {% endfor %}
+          </span>    
         </div>
         {% endfor %}
       </section>
@@ -104,7 +104,6 @@
           <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.course }}</h4>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          
           <div class="flex-container">
             {% for descb in project.description %}
               <div>{{descb}}</div>
